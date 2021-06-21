@@ -18,8 +18,8 @@ x.Run """%programfiles%\DesktopCentral_Agent\bin\dctask64.exe"" invokeexe ""reg 
 x.RegWrite" KEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\DisableChangePassword","1","REG_DWORD"
 x.RegWrite" HKEY_CURRENT_USER\Control Panel\Bluetooth","1","REG_DWORD"
 x.RegWrite" HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\EnableLUA","0","REG_DWORD"
-x.RegWrite" HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Feeds","2","REG_DWORD"
 x.RegWrite"HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop\NoChangingWallPaper","1","REG_DWORD"
 x.RegWrite"HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system\ConsentPromptBehaviorAdmin","0","REG_DWORD"
+x.RegWrite" HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Feeds","2","REG_DWORD"
 
 End if
