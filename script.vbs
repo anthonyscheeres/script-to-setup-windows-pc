@@ -31,5 +31,5 @@ x.RegWrite"HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\M
 x.RegWrite"HKLM\SOFTWARE\Policies\Microsoft\Windows\System\DisableLogonBackgroundImage","1","REG_DWORD"
 x.RegWrite"HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize\AppsUseLightTheme","0","REG_DWORD"
 x.RegWrite"HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\UseOLEDTaskbarTransparency","1","REG_DWORD"
-x.RegWrite"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\DisableRegistryTools","1","REG_DWORD"
+x.RegWrite"HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\disableregistrytools","1","REG_DWORD"
 End if
